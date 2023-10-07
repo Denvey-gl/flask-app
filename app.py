@@ -24,6 +24,3 @@ def friend():
 def tovar_detail(tovar_id):
     return render_template('tovar_detail.html',tovar_id=tovar_id)
 
-
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
