@@ -1,0 +1,160 @@
+body { 
+	overflow-x:hidden;
+  background-color: rgb(233,233,233) !important;
+}
+
+.content {
+  position: relative; /* Позиционирование относительно родительского элемента (подложки) */
+  z-index: 1000; /* Поднимаем контент над подложкой */
+}
+.overlay {
+  position: fixed; /* Фиксированное позиционирование */
+  top: 0;
+  left: 0;
+  width: 100%; /* 100% ширины относительно окна браузера */
+  height: 100%; /* 100% высоты относительно окна браузера */
+
+  z-index: 999; /* Поднимаем элемент над другим контентом */
+}
+.picture_button_tab{
+  max-width: 20px;
+  max-height: 20px;
+}
+.products-list-head_products_list_head__3Srck{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+.catalog-section_title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.products-list-head_filters__DY8rq {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 4px;
+}
+.text-cart-1{
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-bottom: 0;
+  line-height: 8px;
+}
+.text-cart-2{
+  font-size: 11px;
+  line-height: 8px;
+}
+.card-img-top {
+  width: 100%;
+  height: 136.95px; /* Задайте желаемую высоту */
+  object-fit: cover;
+}
+.custom-card-width {
+  width: 185px; /* Задайте желаемую ширину */
+}
+.card .card-body{
+  padding: 5px; /* Цвет и толщина рамки */
+}
+.card-footer {
+  height: 30px; /* Установка высоты card-footer в 30px */
+  display: flex; /* Используем flex для выравнивания элементов по вертикали */
+  align-items: center; /* Выравнивание элементов по центру вертикали */
+  justify-content: center;
+}
+.custom-shadow {
+  box-shadow: 0 4px 9px #e67d227e; /* Измените цвет и параметры тени по вашему выбору */
+}
+.card-footer button {
+  padding: 3px 25px; /* Размеры отступов кнопки (по желанию) */
+  font-size: 12px; /* Размер шрифта кнопки (по желанию) */
+  background: #777; 
+}
+.container {
+    position: relative;
+    margin: 0px auto;
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
+.mcd-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #FFF;
+}
+.mcd-menu li {
+  float: left;
+  position: relative;
+}
+.mcd-menu li a {
+  display: block;
+  text-decoration: none;
+  padding: 12px 20px;
+  text-align: center;
+  color: #777;
+  
+}
+.mcd-menu li a strong {
+  display: block;
+  text-transform: uppercase;
+}
+.mcd-menu li a small {
+  display: block;
+  font-size: 10px;
+}
+.mcd-menu li a i, .mcd-menu li a strong, .mcd-menu li a small {
+  position: relative;
+  
+  transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+}
+.mcd-menu li:hover > a i {
+    opacity: 1;
+    -webkit-animation: moveFromTop 300ms ease-in-out;
+    -moz-animation: moveFromTop 300ms ease-in-out;
+    -ms-animation: moveFromTop 300ms ease-in-out;
+    -o-animation: moveFromTop 300ms ease-in-out;
+    animation: moveFromTop 300ms ease-in-out;
+}
+.mcd-menu li:hover a strong {
+    opacity: 1;
+    -webkit-animation: moveFromLeft 300ms ease-in-out;
+    -moz-animation: moveFromLeft 300ms ease-in-out;
+    -ms-animation: moveFromLeft 300ms ease-in-out;
+    -o-animation: moveFromLeft 300ms ease-in-out;
+    animation: moveFromLeft 300ms ease-in-out;
+}
+.mcd-menu li:hover a small {
+    opacity: 1;
+    -webkit-animation: moveFromRight 300ms ease-in-out;
+    -moz-animation: moveFromRight 300ms ease-in-out;
+    -ms-animation: moveFromRight 300ms ease-in-out;
+    -o-animation: moveFromRight 300ms ease-in-out;
+    animation: moveFromRight 300ms ease-in-out;
+}
+.mcd-menu li:hover > a {
+  color: #e67e22;
+}
+.mcd-menu li a.active {
+  color: #e67e22;
+  border:0;
+  box-shadow: 0 0 5px #DDD;
+  -moz-box-shadow: 0 0 5px #DDD;
+  -webkit-box-shadow: 0 0 5px #DDD;
+}
+
+
+
+
+
+
+
+
+
+

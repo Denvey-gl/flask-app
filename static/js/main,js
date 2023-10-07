@@ -1,0 +1,14 @@
+$(document).ready(function () {
+    $('a').click(function (event) {
+        event.preventDefault();
+        var button_id = $(this).attr('id');
+        $.ajax({
+            type: 'POST',
+            url: '/load_data',
+            data: { button_id: button_id },
+            success: function (response) {
+                $('#dynamic_content').html(response.data);
+            }
+        });
+    });
+});

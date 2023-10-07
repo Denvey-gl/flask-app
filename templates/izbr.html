@@ -1,0 +1,39 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="layout_body__lgFCb">
+                <div class="products-list-head_products_list_head__3Srck catalog-section_title__FkhiG">
+                    <h2>Избранное</h2>
+                </div>
+                <div>
+                    <div class="product-grid-infinite_product_grid_infinite__SZ6tG">
+                        {% for i in range(10) %}
+                        <a href="{{ url_for('tovar_detail', tovar_id=1) }}">
+                        <div class="product-card_product_card__uNcIA" 
+                            >
+                            <div class="product-card_image_wrapper__umJ7O">
+                                <div class="product-card_image__YH7KW"
+                                    style="clip-path: path(&quot;M 157 0 c 15.0849 0 22.6274 0 27.3137 4.6863 a 16 16 0 0 1 0 0 c 4.6863 4.6863 4.6863 12.2288 4.6863 27.3137 L 189 104.938 c 0 15.0849 0 22.6274 -4.6863 27.3137 a 16 16 0 0 1 0 0 c -4.6863 4.6863 -12.2288 4.6863 -27.3137 4.6863 L 32 136.938 c -15.0849 0 -22.6274 0 -27.3137 -4.6863 a 16 16 0 0 1 0 0 c -4.6863 -4.6863 -4.6863 -12.2288 -4.6863 -27.3137 L 0 32 c 0 -15.0849 0 -22.6274 4.6863 -27.3137 a 16 16 0 0 1 0 0 c 4.6863 -4.6863 12.2288 -4.6863 27.3137 -4.6863 Z&quot;);">
+                                    <div class="product-card_image_inner__mpn3r"><img alt="" sizes="100%"
+                                            src="https://top-fon.com/uploads/posts/2023-01/1674881937_top-fon-com-p-kartinki-kompyutera-dlya-prezentatsii-bez-203.png"
+                                            decoding="async" data-nimg="fill" loading="lazy"
+                                            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card_body__nDSSZ">
+                                <div class="product-card_price__RMFFj">55 555 ₽</div>
+                                <div class="product-card_title__BfP5q">Избранное № {{i}}</div>
+                            </div><button class="product-card_button__Gqa5R"
+                                style="clip-path: path(&quot;M 162 0 c 0 0 0 0 0 0 a 15 15 0 0 1 15 15 c 0 0 0 0 0 0 L 177 15 c 0 0 0 0 0 0 a 15 15 0 0 1 -15 15 c 0 0 0 0 0 0 L 15 30 c 0 0 0 0 0 0 a 15 15 0 0 1 -15 -15 c 0 0 0 0 0 0 L 0 15 c 0 0 0 0 0 0 a 15 15 0 0 1 15 -15 c 0 0 0 0 0 0 Z&quot;);">
+                                <div class="product-card_inner__E9KOL">Купить</div>
+                            </button>
+                        </div>
+                        </a>
+                        {% endfor %}
+                    <div class="loading-dots_loading_dots__J7CPx product-grid-infinite_loader__kX3v4"
+                        style="--loading-dots-size: 5px;"><span></span><span></span><span></span></div>
+                </div>
+            </div>
+        </div>
+    
+{% endblock content %}
